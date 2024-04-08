@@ -1,4 +1,4 @@
-package AdditonProgrammingWork;
+package WeitereÜbungen.Extra;
 
 import java.util.Scanner;
 

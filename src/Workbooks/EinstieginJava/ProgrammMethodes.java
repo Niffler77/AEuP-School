@@ -1,4 +1,4 @@
-package Introdcution;
+package Workbooks.EinstieginJava;
 
 import javax.swing.*;
 import java.util.Scanner;

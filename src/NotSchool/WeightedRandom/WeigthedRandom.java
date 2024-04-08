@@ -1,4 +1,4 @@
-package WeightedRandom;
+package NotSchool.WeightedRandom;
 
 import java.util.ArrayList;
 import java.util.Random;

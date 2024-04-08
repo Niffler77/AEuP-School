@@ -1,4 +1,4 @@
-package Schleifen;
+package Workbooks.Schleifen.Schleifen;
 
 import java.util.Random;
 import java.util.Scanner;

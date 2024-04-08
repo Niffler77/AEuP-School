@@ -1,4 +1,4 @@
-package WeightedRandom;
+package NotSchool.WeightedRandom;
 
 public class Case {
 

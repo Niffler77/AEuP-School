@@ -1,4 +1,4 @@
-package Introdcution;
+package Workbooks.EinstieginJava;
 
 public class Randomnumber {
 

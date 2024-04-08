@@ -1,4 +1,4 @@
-package Verzweigungen;
+package Workbooks.SequenzenundVerzweigungen;
 
 import java.util.Scanner;
 

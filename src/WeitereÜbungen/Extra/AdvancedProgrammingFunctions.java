@@ -1,6 +1,5 @@
-package AdditonProgrammingWork;
+package WeitereÜbungen.Extra;
 
-import java.util.Objects;
 import java.util.Scanner;
 
 public class AdvancedProgrammingFunctions {

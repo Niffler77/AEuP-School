@@ -1,4 +1,9 @@
-import Schleifen.RandomRoll;
+package NotSchool;
+
+import NotSchool.WeightedRandom.WeigthedRandom;
+import Workbooks.Schleifen.Schleifen.RandomRoll;
+
+import java.util.ArrayList;
 
 public class Main
 {
@@ -11,7 +16,7 @@ public class Main
     }
 
     public static void main(String[] args) {
-        RandomRoll.main(args);
+        WeigthedRandom.WeightedRng();
     }
 
 }
