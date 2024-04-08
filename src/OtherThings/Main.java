@@ -1,9 +1,6 @@
-package NotSchool;
+package OtherThings;
 
-import NotSchool.WeightedRandom.WeigthedRandom;
-import Workbooks.Schleifen.Schleifen.RandomRoll;
-
-import java.util.ArrayList;
+import OtherThings.WeightedRandom.WeigthedRandom;
 
 public class Main
 {

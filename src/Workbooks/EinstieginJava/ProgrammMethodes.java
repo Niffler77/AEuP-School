@@ -5,6 +5,11 @@ import java.util.Scanner;
 
 public class ProgrammMethodes {
 
+
+    public static void main(String[] args) {
+        FlaschenRechener();
+    }
+
     public static void FlaschenRechener() {
         Scanner scanner = new Scanner(System.in);
 

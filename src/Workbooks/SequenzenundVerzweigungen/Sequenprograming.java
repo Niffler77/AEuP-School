@@ -4,6 +4,10 @@ import java.util.Scanner;
 
 public class Sequenprograming {
 
+    public static void main(String[] args) {
+        Tresor();
+    }
+
     public static void Tresor() {
         System.out.println("Please input pin");
         Scanner scanner = new Scanner(System.in);

@@ -1,6 +1,6 @@
-package NotSchool.WeightedRandom;
+package OtherThings.WeightedRandom;
 
-import NotSchool.Main;
+import OtherThings.Main;
 
 import java.util.ArrayList;
 import java.util.Random;
