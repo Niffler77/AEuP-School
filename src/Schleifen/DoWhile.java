@@ -1,3 +1,5 @@
+package Schleifen;
+
 import java.util.Random;
 import java.util.Scanner;
 

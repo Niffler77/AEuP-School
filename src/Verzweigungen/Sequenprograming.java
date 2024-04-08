@@ -1,3 +1,5 @@
+package Verzweigungen;
+
 import java.util.Scanner;
 
 public class Sequenprograming {

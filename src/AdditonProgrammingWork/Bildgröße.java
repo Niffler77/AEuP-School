@@ -1,3 +1,5 @@
+package AdditonProgrammingWork;
+
 import java.util.Scanner;
 
 public class Bildgröße {

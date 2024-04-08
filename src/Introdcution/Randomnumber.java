@@ -1,3 +1,5 @@
+package Introdcution;
+
 public class Randomnumber {
 
     public static void test() {

@@ -1,3 +1,5 @@
+package Schleifen;
+
 import java.util.Scanner;
 
 public class RandomRoll {
