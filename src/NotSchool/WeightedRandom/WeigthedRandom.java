@@ -1,5 +1,7 @@
 package NotSchool.WeightedRandom;
 
+import NotSchool.Main;
+
 import java.util.ArrayList;
 import java.util.Random;
 

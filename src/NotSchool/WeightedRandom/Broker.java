@@ -1,5 +1,7 @@
 package NotSchool.WeightedRandom;
 
+import NotSchool.Main;
+
 public class Broker {
 
     public int weight;
