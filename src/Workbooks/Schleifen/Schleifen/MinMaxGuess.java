@@ -1,6 +1,8 @@
+package Workbooks.Schleifen.Schleifen;
+
 import java.util.Scanner;
 
-public class Main {
+public class MinMaxGuess {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         final int minNumber = 1;
