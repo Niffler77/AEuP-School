@@ -1,59 +1,54 @@
-package Workbooks.Schleifen.Schleifen;
-
 import java.util.Scanner;
 
-public class RockPaperSissors {
-
-    public static void main(String[] args)  {
-
+public class Main {
+    public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
-        System.out.println("[1] Stein");
-        System.out.println("[2] Papier");
-        System.out.println("[3] Schere");
-        System.out.println("[4] Echse");
-        System.out.println("[5] Spock");
 
-        String[] options = {"Stein", "Papier", "Schere", "Echse", "Spock"};
+        String[] options = {"\uD83D\uDDFF", "\uD83E\uDDFB", "✂\uFE0F", "\uD83E\uDD8E", "\uD83D\uDD96"};
 
         System.out.println("Mögliche Optionen:");
-        for (int i = 0; i < options.length; i++) {
-            System.out.println("[" + (i + 1) + "] " + options[i]);
+        for (int i = 0; i < options.length; i++)
+        {
+            System.out.println("[" + (i + 1) + "] " + options[i]); // OUR big brain move
         }
 
         System.out.print("Bitte Zahl eingeben: ");
-        int userChoice = input.nextInt();
+        int userChoice = input.nextInt() - 1;
 
         System.out.println("---".repeat(20));
-        var computerChoice = (int) (Math.random() * 5) ;
+        int computerChoice = (int) (Math.random() * 5);
 
-        System.out.println("Computer hat " + computerChoice + " gewählt");
+        System.out.println("Computer hat " + options[computerChoice] + " gewählt");
 
-        if (userChoice == computerChoice) {
+        if (userChoice == computerChoice)
+        {
             System.out.println("Unentschieden");
-        } else if ((userChoice == 0 && computerChoice == 2) || // Stein beatss Schere
-                (userChoice == 0 && computerChoice == 3) || // Stein beats Echse
-                (userChoice == 1 && computerChoice == 0) || // Papier beats Stein
-                (userChoice == 1 && computerChoice == 4) || // Papier beats Spock
-                (userChoice == 2 && computerChoice == 1) || // Schere beats Papier
-                (userChoice == 2 && computerChoice == 3) || // Schere beats Echse
-                (userChoice == 3 && computerChoice == 4) || // Eches beats Papier
-                (userChoice == 3 && computerChoice == 1) || // Eches beats Spock
-                (userChoice == 4 && computerChoice == 2) || // Spock beats Stein
-                (userChoice == 4 && computerChoice == 1)) { // Spock beats Schere
+        }
+        else if ((userChoice == 0 && computerChoice == 2) || // Rock beats Scissors
+                (userChoice == 0 && computerChoice == 3) || // Rock beats Lizard
+                (userChoice == 1 && computerChoice == 0) || // Paper beats Rock
+                (userChoice == 1 && computerChoice == 4) || // Paper beats Spock
+                (userChoice == 2 && computerChoice == 1) || // Scissors beats Paper
+                (userChoice == 2 && computerChoice == 3) || // Scissors beats Lizard
+                (userChoice == 3 && computerChoice == 4) || // Lizard beats Spock
+                (userChoice == 3 && computerChoice == 1) || // Lizard beats Paper
+                (userChoice == 4 && computerChoice == 2) || // Spock beats Rock
+                (userChoice == 4 && computerChoice == 1)) // Spock beats Scissors
+        {
             System.out.println("-> Gewonnen!");
-        } else {
+        }
+        else
+        {
             System.out.println("-> Verloren!");
         }
 
         System.out.println("Nochmal spielen? y/n");
-        var playAgain = input.next();
-        if (playAgain.equals("y")) {
+        String playAgain = input.next();
+        if (playAgain.equals("y"))
+        {
             //clear console
-
             System.out.print("\n".repeat(50));
-            main(args);
+            main(null);
         }
-
     }
-
 }
