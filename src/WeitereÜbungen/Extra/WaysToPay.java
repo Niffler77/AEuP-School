@@ -1,6 +1,8 @@
+package WeitereÜbungen.Extra;
+
 import java.util.Scanner;
 
-public class Main {
+public class WaysToPay {
     public static void main(String[] args) {
         int[] bills = {200, 100, 50, 20, 10, 5};
         int[] ways = new int[new Scanner(System.in).nextInt() + 1];
