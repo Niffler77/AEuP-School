@@ -3,19 +3,21 @@ package Workbooks.Arrays;
 import java.util.Scanner;
 
 public class Socks {
+    public static void main(String[] args) {
 
-    Scanner scanner = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
 
-    String [] weekDays = {"Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sontag"};
-    String [] sockColors = new String[7];
+        String [] weekDays = {"Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sontag"};
+        String [] sockColors = new String[7];
 
         if (sockColors[0] == null) {
-        System.out.println("Program ist noch nicht eingerichtet. Bitte Sockenfarben festlegen.");
-        Setup(weekDays, sockColors, scanner);
-    }
+            System.out.println("Program ist noch nicht eingerichtet. Bitte Sockenfarben festlegen.");
+            Setup(weekDays, sockColors, scanner);
+        }
 
-    AskUserWhatToDo(weekDays, sockColors, scanner);
-}
+        AskUserWhatToDo(weekDays, sockColors, scanner);
+
+    }
 
     public static void Setup(String[] weekDays, String[] sockColors, Scanner scanner) {
         for (int i = 0; i < weekDays.length; i++) {
