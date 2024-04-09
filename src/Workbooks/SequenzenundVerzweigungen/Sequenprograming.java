@@ -23,18 +23,18 @@ public class Sequenprograming {
     }
 
     public static void Schoolnumber() {
-        Scanner scanner = new Scanner(System.in);
-        int input = scanner.nextInt();
+        Scanner input = new Scanner(System.in);
 
-        switch (input) {
-            case 1: System.out.println("Sehr Gut"); break;
-            case 2: System.out.println("Gut"); break;
-            case 3: System.out.println("Befriedigend"); break;
-            case 4: System.out.println("Ausreichend"); break;
-            case 5: System.out.println("Mangelhaft"); break;
-            case 6: System.out.println("Ungenügend"); break;
-            default:
-                throw new RuntimeException("Nur 1 - 6 ");
+        String[] grades = {"Sehr Gut", "Gut", "Befriedigend", "Ausreichend", "Mangelhaft", "Ungenügend"};
+
+        System.out.print("Bitte Note eingeben: ");
+        var usergrade = input.nextInt();
+
+        if (usergrade < 6) {
+            System.out.println(grades[usergrade-1]);
+        } else {
+            System.out.println("Nur 1-6 wird akzeptiert!");
+            throw new RuntimeException("Invalide Input!");
         }
     }
 }
