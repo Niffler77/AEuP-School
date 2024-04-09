@@ -7,8 +7,8 @@ public class Socks {
 
         Scanner scanner = new Scanner(System.in);
 
-        String [] weekDays = {"Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sontag"};
-        String [] sockColors = new String[7];
+        String[] weekDays = {"Montag", "Dienstag", "Mittwoch", "Donnerstag", "Freitag", "Samstag", "Sontag"};
+        String[] sockColors = new String[7];
 
         if (sockColors[0] == null) {
             System.out.println("Program ist noch nicht eingerichtet. Bitte Sockenfarben festlegen.");
@@ -85,3 +85,4 @@ public class Socks {
 
         AskUserWhatToDo(weekDays, sockColors, scanner);
     }
+}
