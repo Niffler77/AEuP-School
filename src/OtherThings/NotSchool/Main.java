@@ -1,6 +1,6 @@
-package OtherThings;
+package OtherThings.NotSchool;
 
-import OtherThings.WeightedRandom.WeigthedRandom;
+import OtherThings.NotSchool.WeightedRandom.WeigthedRandom;
 
 public class Main
 {
