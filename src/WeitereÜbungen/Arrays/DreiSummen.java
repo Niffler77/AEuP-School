@@ -12,8 +12,8 @@ public class DreiSummen {
         for (int i = 0; i < array.length; i++) {
 
             sum ++;
-            if (array[i] % 2 == 0) sumeven++;
-            else sumodd++;
+            if (array[i] % 2 == 0) sumeven += array[i];
+            else sumodd += array[i];
         }
 
         System.out.println(sum + "\n" +  sumeven + "\n" + sumodd);
