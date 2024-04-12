@@ -61,7 +61,7 @@ public class Socks {
 
     public static void GetSockColorForDay(String[] weekDays, String[] sockColors, Scanner scanner) {
         System.out.println("Für welchen Tag möchtest du die Sockenfarbe wissen? ");
-        // for each day of the week, print it like this: [1] Montag....
+
         for (int i = 0; i < weekDays.length; i++) {
             System.out.println("[" + (i + 1) + "] " + weekDays[i]);
         }
