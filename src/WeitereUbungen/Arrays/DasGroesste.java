@@ -1,4 +1,4 @@
-package WeitereUebungen.Arrays;
+package WeitereUbungen.Arrays;
 
 import java.util.Arrays;
 

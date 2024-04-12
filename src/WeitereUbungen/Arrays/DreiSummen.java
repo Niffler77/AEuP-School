@@ -1,4 +1,4 @@
-package WeitereUebungen.Arrays;
+package WeitereUbungen.Arrays;
 
 public class DreiSummen {
 
