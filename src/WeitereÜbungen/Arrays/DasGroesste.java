@@ -9,12 +9,11 @@ public class DasGroesste {
 
         int[] biggest = {0,0};
 
-        for (int i = 0; i < array.length; i++) {
-            int[] sorted = Arrays.stream(array).sorted().toArray();
-            sorted[sorted.length - 1] = biggest[0];
-            sorted[sorted.length - 2] = biggest[1];
-        }
+        int[] sorted = Arrays.stream(array).sorted().toArray();
+        biggest[0] = sorted[sorted.length - 1];
+        biggest[1] = sorted[sorted.length - 2];
 
-        System.out.println(biggest[0] + "\n " + biggest[1]);
+
+        System.out.println(biggest[0] + "\n" + biggest[1]);
     }
 }
