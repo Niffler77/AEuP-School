@@ -1,4 +1,4 @@
-package WeitereÜbungen.Extra;
+package WeitereUbungen.Extra;
 
 import java.util.Scanner;
 
