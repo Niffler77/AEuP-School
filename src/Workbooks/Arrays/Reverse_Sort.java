@@ -9,7 +9,7 @@ public class Reverse_Sort {
             array[i] = array[array.length - i - 1];
             array[array.length - 1 - i] = temp;
         }
-        for (int i = 0; i < array.length; i++)  {
+        for (int i = 0; i < array.length; i++) {
             System.out.println(array[i]);
         }
     }
