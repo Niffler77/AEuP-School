@@ -1,4 +1,4 @@
-package OtherThings.WeightedRandom;
+package OtherThings.NotSchool.WeightedRandom;
 
 public class Case {
 
