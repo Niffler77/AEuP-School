@@ -22,7 +22,8 @@ public class Fibonacci {
         }
 
         //BigInteger Kann nicht overflow
-        for (int i = 0; i < 100; i++) {
+        System.out.println("BigInteger: Fibonacci");
+        for (int i = 0; i < 125; i++) {
             System.out.println(fibonacci3(i));
         }
     }
