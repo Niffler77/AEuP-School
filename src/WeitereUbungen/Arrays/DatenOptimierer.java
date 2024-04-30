@@ -26,7 +26,7 @@ public class DatenOptimierer {
         }
         array[indexAmWeitesten] = -1;
         for (int i = 0; i < array.length; i++) {
-            if (array[i] == -1) {
+            if (array[i] != -1) {
                 durchschnitt2 += array[i];
             }
         }
