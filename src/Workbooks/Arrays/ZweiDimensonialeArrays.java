@@ -39,23 +39,43 @@ public class ZweiDimensonialeArrays {
             System.out.print("\n");
         }
 
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("Input Zeilen-Index");
-        int rowindex = scanner.nextInt() ;
-        int rowsumm = 0;
-        for (int i = 0; i < indirket2D[rowindex - 1].length; i++) {
-            rowsumm += indirket2D[rowindex - 1 ][i];
+
+        boolean rowPrintout = false;
+        while (!rowPrintout)
+        {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Geben sie die spalte an");
+            int input = scanner.nextInt() ;
+            int rowIndex = input - 1;
+
+            if (rowIndex < indirket2D[rowIndex].length) {
+                int rowsumm = 0;
+                for (int i = 0; i < indirket2D[rowIndex].length; i++) {
+                    rowsumm += indirket2D[rowIndex][i];
+                }
+                System.out.println("Summen der " + rowIndex +  " Zeile ist " +  rowsumm);
+                rowPrintout = true;
+            }
         }
 
-        System.out.println("Summen der " + rowindex +  " Zeile ist " +  rowsumm);
+        boolean columPrintOut = false;
+        while (!columPrintOut)
+        {
+            Scanner scanner = new Scanner(System.in);
+            System.out.println("Input Spalten-Index");
+            int input = scanner.nextInt();
+            int columIndex = input - 1;
 
-        System.out.println("Input Spalten-Index");
-        int columindex = scanner.nextInt();
-        int columsumm = 0;
-        for (int i = 0; i < indirket2D.length; i++) {
-            columsumm += indirket2D[i][columindex - 1];
+            if (columIndex < indirket2D.length) {
+                int columSumm = 0;
+                for (int i = 0; i < indirket2D.length; i++) {
+                    columSumm += indirket2D[i][columIndex ];
+                }
+                System.out.println("Summen der " + columIndex +  " Saplte ist " +  columSumm);
+                columPrintOut = true;
+            }
         }
-        System.out.println("Summen der " + columindex +  " Saplte ist " +  columsumm);
+
 
     }
 }
