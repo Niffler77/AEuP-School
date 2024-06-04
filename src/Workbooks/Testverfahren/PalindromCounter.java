@@ -4,7 +4,7 @@ public class PalindromCounter {
 
     public static void main(String[] args)
     {
-        String[] words = {"radar", "Level", "world", "deified", "civic", "example"};
+        String[] words = {"Kajak", "radar", "Level", "world", "deified", "civic", "example"};
         int palindromeCount = 0;
 
         for (int i = 0; i < words.length; i++)
