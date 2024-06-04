@@ -1,4 +1,4 @@
-package Workbooks.Testing;
+package Workbooks.Testverfahren;
 
 public class pallindrom {
     public static void main(String[] args)
