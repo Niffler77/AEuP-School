@@ -17,7 +17,7 @@ public class PalindromCounter {
                 reversed += word.charAt(j);
             }
 
-            if (word.equals(reversed)) {
+            if (word.equalsIgnoreCase(reversed)) {
                 palindromeCount++;
             }
         }
