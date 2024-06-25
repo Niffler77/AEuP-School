@@ -1,4 +1,4 @@
-package WorkbookOOP.Kinoticket.AutoÜbung;
+package WorkbookOOP.AutoÜbung;
 
 public class AutoTest {
 
