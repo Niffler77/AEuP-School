@@ -1,6 +1,6 @@
-package Workbooks.Testing;
+package Workbooks.Testverfahren;
 
-public class Palidrom {
+public class PalidromJakob {
     public static void main(String[] args)
     {
         String[] words = {"radar", "level", "world", "deified", "civic", "example"};

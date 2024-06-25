@@ -1,6 +1,6 @@
 package Workbooks.Testverfahren;
 
-public class pallindrom {
+public class PallindromLasse {
     public static void main(String[] args)
     {
         String[] words = {"radar", "Level", "world", "deified", "civic", "example"};

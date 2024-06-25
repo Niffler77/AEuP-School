@@ -1,4 +1,4 @@
-package WorkbookOOP.Kinoticket;
+package Workbooks.Testverfahren.KinoTicket;
 
 public class KinoTicketMain {
 
