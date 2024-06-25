@@ -1,6 +1,6 @@
 package Workbooks.Testverfahren;
 
-public class PalindromCounter {
+public class PalindromSven {
 
     public static void main(String[] args)
     {

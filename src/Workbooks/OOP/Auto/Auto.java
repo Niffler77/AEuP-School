@@ -1,4 +1,4 @@
-package Workbooks.OOP;
+package Workbooks.OOP.Auto;
 
 public class Auto {
     public String farbe = "";

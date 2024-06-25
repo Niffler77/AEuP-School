@@ -1,4 +1,4 @@
-package Workbooks.OOP;
+package Workbooks.OOP.Auto;
 
 public class AutoTest {
     public static void main(String[] args) {
