@@ -1,6 +1,8 @@
 ![Badge](https://img.shields.io/badge/Bullshit-100%25-asd)
 ![Badge](https://img.shields.io/badge/Java-100%25-yellow)
 ![Badge](https://img.shields.io/badge/Best%20Practices-0%25-asd)
+![Important](https://img.shields.io/badge/Communism-yes-FF5733)
+
 
 Things weeeeeeeeeeeeeeeee did while in School or for School
 
