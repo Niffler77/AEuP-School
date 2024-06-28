@@ -1,7 +1,6 @@
 package Workbooks.OOP.Sparbuch.David;
 
 public class Sparbuch {
-<<<<<<< HEAD
 
 
     public String Name = null;
@@ -16,6 +15,4 @@ public class Sparbuch {
     public void zinsenBerechnen() {
 
     }
-=======
->>>>>>> b0ca1818a983a68c35f132597c823fdb18174279
 }
