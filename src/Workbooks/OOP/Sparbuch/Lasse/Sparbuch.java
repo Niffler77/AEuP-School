@@ -4,12 +4,12 @@ import java.util.Scanner;
 
 public class Sparbuch {
     public static void main(String[] args) {
-        Scanner erstellen = new Scanner(System.in);
+        Scanner scanner = new Scanner(System.in);
         Konto neuesKonto = new Konto();
         System.out.println("Name: ");
-        neuesKonto.name = new String(erstellen.next());
+        neuesKonto.name = new String(scanner.next());
         System.out.println("Kontostand: ");
-        neuesKonto.kontostand = new Double(erstellen.nextDouble());
+        neuesKonto.kontostand = new Double(scanner.nextDouble());
 
         neuesKonto.buchen(284);
         double zinsen = neuesKonto.zinsenBerechnen();
