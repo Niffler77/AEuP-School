@@ -5,7 +5,7 @@ public class Auto {
     public String farbe = "";
     public String marke = "";
     public String typ = "";
-    public int nummer;
+    private int nummer;
 
     public void ausgabe() {
         System.out.println("Die Marke ist: " + marke);
