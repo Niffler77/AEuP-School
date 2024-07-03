@@ -1,6 +1,8 @@
 package Workbooks.OOP.Sparbuch.Sven;
 
 public class Sparbuch {
+<<<<<<< HEAD
+=======
 
     public double kontostand = 0.0;
 
@@ -15,4 +17,5 @@ public class Sparbuch {
     public double zinsenBerechnen() {
       return kontostand * zinssatz;
     }
+>>>>>>> b0ca1818a983a68c35f132597c823fdb18174279
 }

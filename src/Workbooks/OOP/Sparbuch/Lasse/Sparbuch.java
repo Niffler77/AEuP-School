@@ -1,5 +1,8 @@
 package Workbooks.OOP.Sparbuch.Lasse;
 
+<<<<<<< HEAD
+public class Sparbuch {
+=======
 import java.util.Scanner;
 
 public class Sparbuch {
@@ -15,4 +18,5 @@ public class Sparbuch {
         double zinsen = neuesKonto.zinsenBerechnen();
         System.out.println(zinsen);
     }
+>>>>>>> b0ca1818a983a68c35f132597c823fdb18174279
 }
